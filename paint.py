@@ -47,7 +47,8 @@ def draw_circle(start, end):
     end_fill()
 
 
-def rectangle(start, end):
+def rectangle(start, end):# Aqui estamos haciendo rectangle donde usamos un for loop para para hacer el dibujo desde start y moving left 90 angulo y eso repite hasta llegar el end 
+   
     """Draw rectangle from start to end."""
     up()
     goto(start.x, start.y)
@@ -64,7 +65,7 @@ def rectangle(start, end):
     
 
 
-def triangle(start, end):
+def triangle(start, end): #Aqui es Traingle usamos un for loop in count range of 2 y  desde start moving to left 110 angulo hasta llegar end. 
     """Draw triangle from start to end."""
     up()
     goto(start.x, start.y)
