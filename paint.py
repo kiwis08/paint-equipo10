@@ -8,12 +8,12 @@ Exercises
 4. Complete triangle.
 5. Add width parameter.
 """
-
+#importa las librerias
 from turtle import *
 
 from freegames import vector
 
-
+#dibuja una linea desde el primer punto hasta el segundo y ahi se queda.
 def line(start, end):
     """Draw line from start to end."""
     up()
@@ -21,7 +21,7 @@ def line(start, end):
     down()
     goto(end.x, end.y)
 
-
+#dibuja un cuadrado desde el punto inicial y con un for loop gira a la izquierda y dibuja una linea
 def square(start, end):
     """Draw square from start to end."""
     up()
